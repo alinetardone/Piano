@@ -5,10 +5,10 @@ const styles = StyleSheet.create({
     teclaBranca:{
         width: '95%',
         height: '14%',
-        borderRadius: 5,
+        borderRadius: 10,
         backgroundColor: 'white',
         borderColor: 'black',
-        marginLeft: 1,
+        marginLeft: '4%',
         borderWidth: 1,
         marginTop: 1,
         marginBottom: 1,
@@ -21,9 +21,9 @@ const styles = StyleSheet.create({
         borderRadius: 8,
         backgroundColor: 'black',
         borderColor: 'white',
-        marginLeft: 1,
+        marginRight: '2%',
         borderWidth: 1,
-        marginRight: '40%',
+        marginLeft: '40%',
         position:  'absolute'
     }
 });
