@@ -6,51 +6,51 @@ export default function home() {
   return (
     <View style={styles.container}>
         
-        <TouchableOpacity style={styles.teclaBranca} onPress={() => playAudioDo()}>
+        <TouchableOpacity style={styles.teclaBranca} onPressIn={() => playAudioDo()}>
             
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.teclaBranca} onPress={() => playAudioRe()}>
+        <TouchableOpacity style={styles.teclaBranca} onPressIn={() => playAudioRe()}>
             
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.teclaBranca} onPress={() => playAudioMi()}>
+        <TouchableOpacity style={styles.teclaBranca} onPressIn={() => playAudioMi()}>
         
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.teclaBranca} onPress={() => playAudioFa()}>
+        <TouchableOpacity style={styles.teclaBranca} onPressIn={() => playAudioFa()}>
         
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.teclaBranca} onPress={() => playAudioSol()}>
+        <TouchableOpacity style={styles.teclaBranca} onPressIn={() => playAudioSol()}>
         
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.teclaBranca} onPress={() => playAudioLa()}>
+        <TouchableOpacity style={styles.teclaBranca} onPressIn={() => playAudioLa()}>
         
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.teclaBranca} onPress={() => playAudioSi()}>
+        <TouchableOpacity style={styles.teclaBranca} onPressIn={() => playAudioSi()}>
 
         </TouchableOpacity>
 
-        <TouchableOpacity style={[styles.teclaPreta, {marginTop:'17%'}]} onPress={() => playAudioDos()}>
+        <TouchableOpacity style={[styles.teclaPreta, {marginTop:'20%'}]} onPressIn={() => playAudioDos()}>
             
         </TouchableOpacity>
 
-        <TouchableOpacity style={[styles.teclaPreta, {marginTop:'39%'}]} onPress={() => playAudioRes()}>
+        <TouchableOpacity style={[styles.teclaPreta, {marginTop:'49%'}]} onPressIn={() => playAudioRes()}>
             
         </TouchableOpacity>
 
-        <TouchableOpacity style={[styles.teclaPreta, {marginTop:'89%'}]} onPress={() => playAudioFas()}>
+        <TouchableOpacity style={[styles.teclaPreta, {marginTop:'108%'}]} onPressIn={() => playAudioFas()}>
         
         </TouchableOpacity>
 
-        <TouchableOpacity style={[styles.teclaPreta, {marginTop:'112%'}]} onPress={() => playAudioSols()}>
+        <TouchableOpacity style={[styles.teclaPreta, {marginTop:'137%'}]} onPressIn={() => playAudioSols()}>
         
         </TouchableOpacity>
 
-        <TouchableOpacity style={[styles.teclaPreta, {marginTop:'136%'}]} onPress={() => playAudioLas()}>
+        <TouchableOpacity style={[styles.teclaPreta, {marginTop:'166%'}]} onPressIn={() => playAudioLas()}>
         
         </TouchableOpacity>
 
